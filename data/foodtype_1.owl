@@ -1,0 +1,2862 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#专用小麦粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#专用小麦粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#中式糕点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#中式糕点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳清干酪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳清干酪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳清蛋白干酪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳清蛋白干酪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳粉和奶油粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳粉和奶油粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳粉和奶油粉及其调制产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳粉和奶油粉及其调制产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳粉和奶油粉及其调制产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳酸菌饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳酸菌饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#含乳饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#人造黄油及其类似制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#人造黄油及其类似制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪含量80％以上的乳化制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#代可可脂巧克力及使用可可脂代用品的巧克力类似产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#代可可脂巧克力及使用可可脂代用品的巧克力类似产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品包括代可可脂巧克力及制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#以乳为主要配料的即食风味食品或其预制产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#以乳为主要配料的即食风味食品或其预制产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#以动物性原料为基料的调味酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#以动物性原料为基料的调味酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#半固体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#以蔬菜为基料的调味酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#以蔬菜为基料的调味酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#半固体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#伏特加 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#伏特加">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他乳制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他乳制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他再制蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他再制蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制蛋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他冷冻饮品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他冷冻饮品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻饮品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工的坚果与籽类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工的坚果与籽类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工坚果与籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他加工食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他半固体复合调味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他半固体复合调味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#半固体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他半干豆腐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他半干豆腐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干再制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他固体复合调味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他固体复合调味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他固体饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他固体饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他型碳酸饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他型碳酸饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#碳酸饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他杂粮制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他杂粮制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他水产品及其制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他水产品及其制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他油脂或油脂制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他油脂或油脂制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪油和乳化脂肪制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他焙烤食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他焙烤食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他熟肉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他熟肉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他特殊膳食用食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他特殊膳食用食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊膳食用食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他甜味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他甜味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类饮用水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类饮用水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#包装饮用水"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他糖和糖浆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他糖和糖浆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食糖"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他蒸馏酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他蒸馏酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他蛋制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他蛋制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋及蛋制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他蛋白饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他蛋白饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他调味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他调味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他调味糖浆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他调味糖浆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味糖浆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他豆制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他豆制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆类制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他酵母及酵母类制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他酵母及酵母类制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酵母及酵母类制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他预制水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他预制水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他饼干 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他饼干">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饼干"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他香辛料加工品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他香辛料加工品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制干酪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制干酪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋及蛋制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冰淇淋雪糕类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冰淇淋雪糕类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻饮品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻挂浆制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻挂浆制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水产品及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水产品及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水产品及其制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水产品及其制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻米面制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻米面制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻饮品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻饮品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻鱼糜制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻鱼糜制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻水产品及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷却肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷却肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生鲜肉"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冻肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冻肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生鲜肉"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#凉果类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#凉果类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯凉果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工坚果与籽类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工坚果与籽类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果和籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#动物油脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#动物油脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#基本不含水的脂肪和油"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#包装饮用水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#包装饮用水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#半固体复合调味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#半固体复合调味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#卤制半干豆腐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#卤制半干豆腐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干再制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#卤蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#卤蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制蛋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#即食谷物包括碾轧燕麦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#即食谷物包括碾轧燕麦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#原粮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#原粮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#去皮切块或切丝的蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#去皮切块或切丝的蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#去皮切块或切丝的食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#去皮切块或切丝的食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#去皮或预切的鲜水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#去皮或预切的鲜水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵乳和风味发酵乳"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵乳和风味发酵乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵乳和风味发酵乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵型含乳饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵型含乳饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#含乳饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵的水果制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵的水果制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵肉制品类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵肉制品类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵蔬菜制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵蔬菜制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵豆制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵豆制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆类制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酒类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵面制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵面制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可乐型碳酸饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可乐型碳酸饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#碳酸饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品包括代可可脂巧克力及制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品以及糖果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品以及糖果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品包括代可可脂巧克力及制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品包括代可可脂巧克力及制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品以及糖果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#含乳饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#含乳饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#咸蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#咸蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制蛋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#啤酒和麦芽饮料其他发酵酒类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#啤酒和麦芽饮料其他发酵酒类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体复合调味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体复合调味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体汤料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体汤料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果与籽类的泥包括花生酱等 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果与籽类的泥包括花生酱等">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工坚果与籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果与籽类罐头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果与籽类罐头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工坚果与籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果和籽类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果和籽类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果蔬菜豆类食用菌藻类坚果以及籽类等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#基本不含水的脂肪和油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#基本不含水的脂肪和油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪油和乳化脂肪制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#复合蛋白饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#复合蛋白饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#复合调味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#复合调味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米及其制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米及其制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#夹心及装饰类饼干 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#夹心及装饰类饼干">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饼干"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#威化饼干 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#威化饼干">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饼干"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#威士忌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#威士忌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴儿配方食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴儿配方食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿配方食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿罐装辅助食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿罐装辅助食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿辅助食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿谷类辅助食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿谷类辅助食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿辅助食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿辅助食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿辅助食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊膳食用食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿配方食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿配方食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊膳食用食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉及其制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉及其制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巧克力和巧克力制品除05.01.01以外的可可制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巧克力和巧克力制品除05.01.01以外的可可制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品包括代可可脂巧克力及制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巴氏杀菌乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巴氏杀菌乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巴氏杀菌乳灭菌乳和调制乳"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巴氏杀菌乳灭菌乳和调制乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巴氏杀菌乳灭菌乳和调制乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#带壳熟制坚果与籽类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#带壳熟制坚果与籽类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制坚果与籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干制蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干制蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干制食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干制食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪类似品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪类似品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酵母 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酵母">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酵母及酵母类制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#料酒及制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#料酒及制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新型豆制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新型豆制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜坚果与籽类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜坚果与籽类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#坚果和籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#方便米面制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#方便米面制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#无水黄油无水乳脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#无水黄油无水乳脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#基本不含水的脂肪和油"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#无汽葡萄酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#无汽葡萄酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#葡萄酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#普通再制干酪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#普通再制干酪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制干酪"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#月饼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#月饼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#朗姆酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#朗姆酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#未经加工的鲜果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#未经加工的鲜果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#未经加工鲜蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#未经加工鲜蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#未经加工鲜食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#未经加工鲜食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮粉及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮粉及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮粉及其制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮粉及其制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮罐头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮罐头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#杂粮制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果冻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果冻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果泥 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果泥">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果糕类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果糕类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯凉果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果脯类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果脯类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯凉果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果蔬汁类及其饮料果蔬汁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果蔬汁类及其饮料果蔬汁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#果酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物油脂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物油脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物油脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#基本不含水的脂肪和油"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物蛋白饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物蛋白饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#氢化植物油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#氢化植物油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#植物油脂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产品罐头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产品罐头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果蔬菜豆类食用菌藻类坚果以及籽类等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果干类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果干类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果甜品包括果味液体甜品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果甜品包括果味液体甜品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果罐头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果罐头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果蔬菜豆类食用菌藻类坚果以及籽类等 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果蔬菜豆类食用菌藻类坚果以及籽类等">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果调味糖浆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果调味糖浆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味糖浆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水油状脂肪乳化制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水油状脂肪乳化制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪油和乳化脂肪制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#油炸肉类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#油炸肉类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#油炸面制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#油炸面制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#浓缩汤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#浓缩汤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#液体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#液体复合调味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#液体复合调味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉及淀粉类制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉及淀粉类制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉及淀粉类制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉糖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉糖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淡炼乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淡炼乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#炼乳及其调制产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#灭菌乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#灭菌乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巴氏杀菌乳灭菌乳和调制乳"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#炸制半干豆腐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#炸制半干豆腐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干再制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#炼乳及其调制产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#炼乳及其调制产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#热凝固蛋制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#热凝固蛋制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品馅料及表面用挂浆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品馅料及表面用挂浆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#煮熟的或油炸的水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#煮熟的或油炸的水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熏制半干豆腐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熏制半干豆腐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干再制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熏烤水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熏烤水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熏烧烤肉类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熏烧烤肉类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制坚果与籽类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制坚果与籽类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工坚果与籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制豆类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制豆类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟化干酪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟化干酪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟干水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟干水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉及肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉干制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉干制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊医学用途婴儿配方食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊医学用途婴儿配方食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿配方食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊用途饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊用途饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊膳食用食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊膳食用食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生干面制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生干面制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生湿面制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生湿面制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生鲜肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生鲜肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#生鲜肉"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉及肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白兰地 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白兰地">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白煮肉类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白煮肉类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱卤肉制品类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白糖及白糖制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白糖及白糖制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食糖"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#白酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#皮蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#皮蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制蛋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#盐及代盐制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#盐及代盐制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#碳酸饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#碳酸饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油及其类似品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油及其类似品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳及乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油类似品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油类似品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#米粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#米粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#米粉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#米粉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#大米及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粉丝粉条 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粉丝粉条">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粉圆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粉圆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食制品馅料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食制品馅料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点上彩装 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点上彩装">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糖果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糖果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品以及糖果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糖果和巧克力制品包衣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糖果和巧克力制品包衣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品以及糖果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糟肉类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糟肉类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱卤肉制品类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糟蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糟蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制蛋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经水煮或油炸的蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经水煮或油炸的蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经水煮或油炸的藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经水煮或油炸的藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经烹调或油炸的水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经烹调或油炸的水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经表面处理的新鲜蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经表面处理的新鲜蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经表面处理的鲜水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经表面处理的鲜水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经表面处理的鲜食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#经表面处理的鲜食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉制品的可食用动物肠衣类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉制品的可食用动物肠衣类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉及肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉及肉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉及肉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉干类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉干类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉干制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉松类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉松类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉干制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉汤骨汤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉汤骨汤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#液体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉灌肠类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉灌肠类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉罐头类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉罐头类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉脯类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉脯类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉干制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#胶原蛋白肠衣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#胶原蛋白肠衣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#胶基糖果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#胶基糖果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糖果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪含量80％以上的乳化制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪含量80％以上的乳化制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水油状脂肪乳化制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪含量80％以下的乳化制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪含量80％以下的乳化制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水油状脂肪乳化制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪油和乳化脂肪制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪油和乳化脂肪制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪类甜品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪类甜品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪油和乳化脂肪制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脱壳熟制坚果与籽类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脱壳熟制坚果与籽类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制坚果与籽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脱水蛋制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脱水蛋制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌制水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌制水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌渍的蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌渍的蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌渍的食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌渍的食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌腊肉制品类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腌腊肉制品类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腐乳类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腐乳类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腐竹类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#腐竹类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#膨化食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#膨化食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#花粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#花粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜及花粉"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶叶咖啡和茶制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶叶咖啡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶叶咖啡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶叶咖啡和茶制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶叶咖啡和茶制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#茶叶咖啡和茶制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#葡萄酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#葡萄酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酒类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果蔬菜豆类食用菌藻类坚果以及籽类等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜泥番茄沙司除外 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜泥番茄沙司除外">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜罐头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蔬菜罐头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#藕粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#藕粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#虾味片 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#虾味片">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蚝油虾油鱼露等 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蚝油虾油鱼露等">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#液体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋及蛋制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋卷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饼干"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋及蛋制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋及蛋制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋液与液态蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋液与液态蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白固体饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白固体饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋白饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋黄酱沙拉酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋黄酱沙拉酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#半固体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜及花粉"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜及花粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜及花粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜂蜜酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯凉果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯凉果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯凉果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#装饰性果蔬 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#装饰性果蔬">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#装饰糖果顶饰和甜汁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#装饰糖果顶饰和甜汁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#可可制品巧克力和巧克力制品以及糖果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#西式火腿类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#西式火腿类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#西式糕点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#西式糕点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糕点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#话化类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#话化类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蜜饯凉果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#巴氏杀菌乳灭菌乳和调制乳"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制乳粉和调制奶油粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制乳粉和调制奶油粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#乳粉和奶油粉及其调制产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制炼乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制炼乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#炼乳及其调制产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制稀奶油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调制稀奶油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味再制干酪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味再制干酪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#再制干酪"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味清汁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味清汁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#液体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味糖浆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味糖浆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调理肉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调理肉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调香葡萄酒特种葡萄酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调香葡萄酒特种葡萄酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#葡萄酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调香蒸馏酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调香蒸馏酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蒸馏酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#谷类和淀粉类甜品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#谷类和淀粉类甜品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#粮食和粮食制品包括大米面粉杂粮块根植物豆类和玉米提取的淀粉等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干再制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干再制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆干类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆类制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆类制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果蔬菜豆类食用菌藻类坚果以及籽类等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆腐类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆腐类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆芽菜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆芽菜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#新鲜蔬菜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆豉及其制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆豉及其制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵豆制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#起泡和半起泡葡萄酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#起泡和半起泡葡萄酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#葡萄酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#较大婴儿和幼儿配方食品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#较大婴儿和幼儿配方食品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#婴幼儿配方食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#通用小麦粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#通用小麦粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#速溶咖啡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#速溶咖啡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制型含乳饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制型含乳饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#含乳饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酒类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱及酱制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制酱油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制酱油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱油"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制食醋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#配制食醋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酒类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酒类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱卤肉制品类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱卤肉制品类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱卤肉类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱卤肉类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱卤肉制品类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱及酱制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱及酱制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酵母及酵母类制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酵母及酵母类制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酿造酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酿造酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱及酱制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酿造酱油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酿造酱油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酱油"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酿造食醋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#酿造食醋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋油或盐渍水果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋油或盐渍水果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋渍或肉冻状水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#醋渍或肉冻状水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#除04.01.02.05以外的果酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#除04.01.02.05以外的果酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#除胶基糖果以外的其他糖果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#除胶基糖果以外的其他糖果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#糖果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非发酵豆制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#豆类制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非熟化干酪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#非熟化干酪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#干酪和再制干酪及其类似品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#面包 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#面包">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#面糊裹粉煎炸粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#面糊裹粉煎炸粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#小麦粉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制肉制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制肉制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#肉及肉制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风味冰冰棍类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风味冰冰棍类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻饮品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风味发酵乳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风味发酵乳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵乳和风味发酵乳"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风味饮料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风味饮料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风干烘干压干等水产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#风干烘干压干等水产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用冰 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用冰">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻饮品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用淀粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用淀粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#淀粉及淀粉类制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用菌和藻类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用菌和藻类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水果蔬菜豆类食用菌藻类坚果以及籽类等"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用菌和藻类罐头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食用菌和藻类罐头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工食用菌和藻类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食糖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食糖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#餐桌甜味料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#餐桌甜味料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#甜味料包括蜂蜜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮料类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#食品分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮用天然矿泉水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮用天然矿泉水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#包装饮用水"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮用纯净水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饮用纯净水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#包装饮用水"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饼干 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#饼干">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#焙烤食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料及粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料及粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料酱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料酱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#香辛料类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鱼子制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鱼子制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#预制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鱼肉灌肠类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鱼肉灌肠类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#熟制水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鲜味剂和助鲜剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鲜味剂和助鲜剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鲜水产 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鲜水产">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#水产及其制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鲜蛋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鲜蛋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#蛋及蛋制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鸡精鸡粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#鸡精鸡粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#固体复合调味料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#黄油和浓缩黄油 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#黄油和浓缩黄油">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪含量80％以上的乳化制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#黄酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#黄酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#发酵酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#02.02类以外的脂肪乳化制品包括混合的和调味的脂肪乳化制品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#02.02类以外的脂肪乳化制品包括混合的和调味的脂肪乳化制品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#脂肪油和乳化脂肪制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#— -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#—">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#其他类"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#冷冻饮品"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#加工坚果与籽类"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#特殊膳食用食品"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#稀奶油及其类似品"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2022/4/foodtype-ontology-1#调味品"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
