@@ -1,0 +1,2514 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/2022/ontologies/FCOn2760(en)#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/2022/ontologies/FCOn2760(en)#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Alcoholic-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="All-purpose-wheat-flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Anhydrous-butter-Anhydrous-butterfat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Animal-oil-and-fat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Aquatic-product-and-their-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Baked-food-filling-and-surface-batter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Baked-goods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Batter-coated-frying-flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Bean-curd-stick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Bean-sprout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Beer-and-other-fermented-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Boiled-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Boiled-or-fried-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Boiled-or-fried-seaweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Boiled-or-fried-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Botanical-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Braised-semi-dried-tofu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Brandy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Brewed-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Brewed-soy-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Brewed-vinegar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Butter-and-concentrated-butter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Candied-and-preserved-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Candied-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Candies-other-than-gum-based-candy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Candy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Candy-and-chocolate-products-coating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-coarse-cereal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-supplementary-food-for-infants-and-young-children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canned-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Carbonated-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cereal-and-starchy-dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cereal-complementary-food-for-infants-and-young-children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cereal-product-filling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cheese-analog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Chilled-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Chinese-pastry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Coarse-cereal-flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Coarse-cereal-flour-and-its-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Coarse-cereal-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cocoa-butter-replacement-chocolate-and-chocolate-similar-product-using-cocoa-butter-substitutes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cocoa-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cola-type-carbonated-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Collagen-casing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Complementary-food-for-infants-and-young-children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Compound-protein-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Compound-seasoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Condensed-milk-and-their-formulated-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Condensed-soup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Condiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Conditioned-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cooked-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cooked-dried-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cooked-jerky-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cooked-nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cooked-or-fried-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cooked-soybean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cooking-wine-and-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cool-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cream-analogue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cream-and-the-like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Crystallized-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Decorative-candy-topping-and-syrup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Decorative-fruit-and-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dehydrated-egg-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Distilled-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dried-edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dried-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dried-meat-slice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dried-tofu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dried-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dried-yeast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Drink-for-special-uses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Edible-animal-casings-for-meat-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Edible-ice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Edible-starch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Egg-and-egg-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Egg-liquid-and-liquid-egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Egg-preserved-in-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Egg-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Egg-roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Emulsion-with-a-fat-content-of-less-than-80-％"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Emulsion-with-a-fat-content-of-more-than-80-％"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Essence-of-chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Evaporated-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fat-and-oil-essentially-free-from-water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fat-based-dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fat-emulsion-mainly-of-type-water-in-oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fatty-oil-and-emulsified-fatty-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-fruit-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-meat-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-milk-and-flavored-fermented-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-milk-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-soy-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-soybean-and-its-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-vegetable-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fermented-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Filled-and-decorated-biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fish-enemas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fish-roe-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flavored-distilled-spirit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flavored-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flavored-fermented-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flavored-ice-popsicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flavored-syrup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flavored-wine-Specialty-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flavoured-processed-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Food-for-special-dietary-use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Formulated-condensed-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Formulated-cream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Formulated-milk-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Formulated-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Formulated-soy-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Formulated-vinegar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Formulated-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fresh-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fresh-edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fresh-egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fresh-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fresh-nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fresh-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fried-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fried-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fried-semi-dried-tofu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-aquatic-product-and-their-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-minced-fish-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-pulp-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-rice-and-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Frozen-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fruit-dessert-including-fruit-flavored-liquid-dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fruit-flavored-syrup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fruit-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gum-based-candy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Heat-coagulated-egg-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Honey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Honey-and-pollen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hydrogenated-vegetable-oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ice-cream-and-frozen-dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="In-shell-cooked-nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Infant-and-young-children-formula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Infant-formula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Infant-formula-for-special-medical-purposes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Instant-coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Instant-rice-and-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jam-other-than-04.01.02.05"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jelly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jerky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lactic-acid-bacteria-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Liquid-compound-seasoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Liquor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lotus-root-starch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Margarine-and-similar-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mayonnaise-and-salad-dressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Meat-and-bone-Broth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Meat-and-meat-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Meat-floss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Milk-and-dairy-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Milk-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Milk-powder-and-cream-powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Milk-powder-and-cream-powder-and-their-concoction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Modified-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Modified-milk-powder-and-modified-cream-powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Moon-cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Natural-mineral-water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="New-soy-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Non-fermented-soybean-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Nuts-and-seeds-puree-including-peanut-butter-etc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Older-infant-and-young-child-formula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-aquatic-products-and-their-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-baked-goods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-biscuits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-carbonated-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-coarse-cereal-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-cooked-meat-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-dairy-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-distilled-spirits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-drinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-egg-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-fats-or-fat-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-flavored-syrups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-frozen-drinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-kinds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-pre-made-aquatic-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-processed-edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-processed-eggs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-processed-fruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-processed-nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-processed-spice-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-processed-vegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-protein-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-seasonings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-semi-dried-tofu-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-semi-solid-compound-seasonings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-solid-compound-seasonings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-solid-drinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-soy-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-special-dietary-foods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-sugars-and-syrups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-sweeteners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-types-of-drinking-water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Other-yeast-and-yeast-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Others"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Packaged-drinking-water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pasteurized-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pastille"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pastry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Peeled-or-pre-cut-fresh-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pickled-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pickled-edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pickled-fruit-in-vinegar-or-salt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pickled-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Plant-based-protein-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pollen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pour-sausage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pre-made-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pre-made-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Preserved-egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Preserved-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Processed-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Processed-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Processed-nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Processed-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Protein-containing-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Protein-containing-solid-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Puffed-food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Puree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Purified-drinking-water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Raw-grain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Raw-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ready-to-eat-cereals-include-rolled-oat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ready-to-eat-dessert-with-milk-as-main-ingredient-or-their-preparation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ready-to-eat-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Regular-processed-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Remade-egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Reprocessed-dried-tofu-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rice-and-its-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rice-flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rice-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rice-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ripened-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Salt-and-salt-substitute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Salted-and-cured-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Salted-egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sauce-and-sauce-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Seasoned-clear-broth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Seasoning-sauces-based-on-animal-based-ingredients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Semi-solid-compound-seasoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Shelled-cooked-nuts-and-seeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Shrimp-flavor-chip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Smoked-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Smoked-meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Smoked-semi-dried-tofu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Solid-compound-seasoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Solid-drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Solid-soup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Soy-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Soybean-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Soybean-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sparkling-and-semi-sparkling-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Special-wheat-flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Spice-and-powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Spice-oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Spice-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Spiced-egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Spices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Starch-and-starch-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Starch-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Starch-sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Steamed-salted-pork-in-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sterilized-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Stewed-meat-in-seasoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Still-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sugar-and-sugar-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Surface-treated-fresh-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Surface-treated-fresh-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Surface-treated-fresh-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sweeteners-include-honey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Table-sweetener"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tapioca-pearl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tea-and-coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tea-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="The-color-predends-on-pastry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tofu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Umami-and-Flavor-Enhancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Uncooked-and-dry-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Uncooked-and-wet-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Unprocessed-fresh-fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Unprocessed-fresh-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Unprocessed-fresh-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Unripened-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vegetable-based-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vegetable-oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vegetable-oil-and-fat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vegetable-puree-except-tomato-sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vermicelli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vinegar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vinegar-or-aspic-like-aquatic-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vodka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Wafer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Western-pastry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Western-style-ham"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Wheat-flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Wheat-flour-and-its-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Wheat-flour-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Whey-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Whey-protein-cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Yeast-and-yeast-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Yellow-wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="whisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Air-dried,-oven-dried,-press-dried-and-other-aquatic-products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Chocolate,-chocolate-product-and-cocoa-product-other-than-05.01.01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-and-confectionery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-including-cocoa-butter-substitute-chocolate-and-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fat-emulsion-product-not-included-in-class-02.02,-including-mixed-and-flavored-Fat-emulsion-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fruit,-vegetable,-legume,-mushroom,-algae,-nut,-seed,-etc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fruit/Vegetable-juices-and-beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Oyster-sauce,-shrimp-sauce,-fish-sauce,-etc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pasteurized-milk,-sterilized-milk-and-modified-milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Peeled,-cut-or-sliced-fungus-and-seaweeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Peeled,-cut-or-sliced-vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tea,-coffee-and-tea-product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="—"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Food-classification"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Alcoholic-drink"/>
+        <Class IRI="Other-drinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="All-purpose-wheat-flour"/>
+        <Class IRI="Wheat-flour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Anhydrous-butter-Anhydrous-butterfat"/>
+        <Class IRI="Fat-and-oil-essentially-free-from-water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Animal-oil-and-fat"/>
+        <Class IRI="Fat-and-oil-essentially-free-from-water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Aquatic-product-and-their-products"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Baked-food-filling-and-surface-batter"/>
+        <Class IRI="Baked-goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Baked-goods"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Batter-coated-frying-flour"/>
+        <Class IRI="Wheat-flour-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Bean-curd-stick"/>
+        <Class IRI="Non-fermented-soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Bean-sprout"/>
+        <Class IRI="Fresh-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Beer-and-other-fermented-wine"/>
+        <Class IRI="Fermented-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Biscuit"/>
+        <Class IRI="Baked-goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Boiled-meat"/>
+        <Class IRI="Stewed-meat-in-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Boiled-or-fried-fruit"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Boiled-or-fried-seaweed"/>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Boiled-or-fried-vegetable"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Botanical-drink"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Braised-semi-dried-tofu"/>
+        <Class IRI="Reprocessed-dried-tofu-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Brandy"/>
+        <Class IRI="Distilled-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Bread"/>
+        <Class IRI="Baked-goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Brewed-sauce"/>
+        <Class IRI="Sauce-and-sauce-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Brewed-soy-sauce"/>
+        <Class IRI="Soy-sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Brewed-vinegar"/>
+        <Class IRI="Vinegar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Butter-and-concentrated-butter"/>
+        <Class IRI="Emulsion-with-a-fat-content-of-more-than-80-％"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Candied-and-preserved-fruit"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Candied-fruit"/>
+        <Class IRI="Candied-and-preserved-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Candies-other-than-gum-based-candy"/>
+        <Class IRI="Candy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Candy"/>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-and-confectionery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Candy-and-chocolate-products-coating"/>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-and-confectionery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-Fruit"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-aquatic-product"/>
+        <Class IRI="Aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-coarse-cereal"/>
+        <Class IRI="Coarse-cereal-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-edible-fungus-and-seaweeds"/>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-meat"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-nuts-and-seeds"/>
+        <Class IRI="Processed-nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-supplementary-food-for-infants-and-young-children"/>
+        <Class IRI="Complementary-food-for-infants-and-young-children"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Canned-vegetable"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Carbonated-drink"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cereal-and-starchy-dessert"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cereal-complementary-food-for-infants-and-young-children"/>
+        <Class IRI="Complementary-food-for-infants-and-young-children"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cereal-product-filling"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cheese-analog"/>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chilled-meat"/>
+        <Class IRI="Raw-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chinese-pastry"/>
+        <Class IRI="Pastry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Coarse-cereal-flour"/>
+        <Class IRI="Coarse-cereal-flour-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Coarse-cereal-flour-and-its-product"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Coarse-cereal-product"/>
+        <Class IRI="Coarse-cereal-flour-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cocoa-butter-replacement-chocolate-and-chocolate-similar-product-using-cocoa-butter-substitutes"/>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-including-cocoa-butter-substitute-chocolate-and-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cocoa-product"/>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-including-cocoa-butter-substitute-chocolate-and-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cola-type-carbonated-drink"/>
+        <Class IRI="Carbonated-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Collagen-casing"/>
+        <Class IRI="Other-kinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Complementary-food-for-infants-and-young-children"/>
+        <Class IRI="Food-for-special-dietary-use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Compound-protein-containing-drink"/>
+        <Class IRI="Protein-containing-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Compound-seasoning"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Condensed-milk-and-their-formulated-product"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Condensed-soup"/>
+        <Class IRI="Liquid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Condiment"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Conditioned-meat"/>
+        <Class IRI="Pre-made-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooked-aquatic-product"/>
+        <Class IRI="Aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooked-dried-aquatic-product"/>
+        <Class IRI="Cooked-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooked-jerky-product"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooked-nuts-and-seeds"/>
+        <Class IRI="Processed-nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooked-or-fried-aquatic-product"/>
+        <Class IRI="Cooked-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooked-soybean"/>
+        <Class IRI="Non-fermented-soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooking-wine-and-product"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cool-fruit"/>
+        <Class IRI="Candied-and-preserved-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cream"/>
+        <Class IRI="Cream-and-the-like"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cream-analogue"/>
+        <Class IRI="Cream-and-the-like"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cream-and-the-like"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Crystallized-fruit"/>
+        <Class IRI="Candied-and-preserved-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Decorative-candy-topping-and-syrup"/>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-and-confectionery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Decorative-fruit-and-vegetable"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dehydrated-egg-product"/>
+        <Class IRI="Egg-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Distilled-wine"/>
+        <Class IRI="Alcoholic-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dried-edible-fungus-and-seaweeds"/>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dried-fruit"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dried-meat-slice"/>
+        <Class IRI="Cooked-jerky-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dried-tofu"/>
+        <Class IRI="Non-fermented-soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dried-vegetable"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dried-yeast"/>
+        <Class IRI="Yeast-and-yeast-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Drink"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Drink-for-special-uses"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Edible-animal-casings-for-meat-products"/>
+        <Class IRI="Meat-and-meat-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Edible-fungus-and-seaweeds"/>
+        <Class IRI="Fruit,-vegetable,-legume,-mushroom,-algae,-nut,-seed,-etc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Edible-ice"/>
+        <Class IRI="Frozen-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Edible-starch"/>
+        <Class IRI="Starch-and-starch-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Egg-and-egg-product"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Egg-liquid-and-liquid-egg"/>
+        <Class IRI="Egg-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Egg-preserved-in-wine"/>
+        <Class IRI="Remade-egg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Egg-product"/>
+        <Class IRI="Egg-and-egg-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Egg-roll"/>
+        <Class IRI="Biscuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Emulsion-with-a-fat-content-of-less-than-80-％"/>
+        <Class IRI="Fat-emulsion-mainly-of-type-water-in-oil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Emulsion-with-a-fat-content-of-more-than-80-％"/>
+        <Class IRI="Fat-emulsion-mainly-of-type-water-in-oil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Essence-of-chicken"/>
+        <Class IRI="Solid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Evaporated-milk"/>
+        <Class IRI="Condensed-milk-and-their-formulated-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fat-and-oil-essentially-free-from-water"/>
+        <Class IRI="Fatty-oil-and-emulsified-fatty-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fat-based-dessert"/>
+        <Class IRI="Fatty-oil-and-emulsified-fatty-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fat-emulsion-mainly-of-type-water-in-oil"/>
+        <Class IRI="Fatty-oil-and-emulsified-fatty-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fatty-oil-and-emulsified-fatty-product"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-aquatic-product"/>
+        <Class IRI="Cooked-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-flour-product"/>
+        <Class IRI="Wheat-flour-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-fruit-product"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-meat-product"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-milk"/>
+        <Class IRI="Fermented-milk-and-flavored-fermented-milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-milk-and-flavored-fermented-milk"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-milk-containing-drink"/>
+        <Class IRI="Milk-containing-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-soy-product"/>
+        <Class IRI="Soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-soybean-and-its-product"/>
+        <Class IRI="Fermented-soy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-vegetable-product"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fermented-wine"/>
+        <Class IRI="Alcoholic-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Filled-and-decorated-biscuit"/>
+        <Class IRI="Biscuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fish-enemas"/>
+        <Class IRI="Cooked-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fish-roe-product"/>
+        <Class IRI="Pre-made-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flavored-distilled-spirit"/>
+        <Class IRI="Distilled-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flavored-drink"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flavored-fermented-milk"/>
+        <Class IRI="Fermented-milk-and-flavored-fermented-milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flavored-ice-popsicle"/>
+        <Class IRI="Frozen-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flavored-syrup"/>
+        <Class IRI="Sweeteners-include-honey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flavored-wine-Specialty-wine"/>
+        <Class IRI="wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flavoured-processed-cheese"/>
+        <Class IRI="Processed-cheese"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Food-for-special-dietary-use"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Formulated-condensed-milk"/>
+        <Class IRI="Condensed-milk-and-their-formulated-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Formulated-cream"/>
+        <Class IRI="Cream-and-the-like"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Formulated-milk-containing-drink"/>
+        <Class IRI="Milk-containing-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Formulated-sauce"/>
+        <Class IRI="Sauce-and-sauce-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Formulated-soy-sauce"/>
+        <Class IRI="Soy-sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Formulated-vinegar"/>
+        <Class IRI="Vinegar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Formulated-wine"/>
+        <Class IRI="Alcoholic-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fresh-aquatic-product"/>
+        <Class IRI="Aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fresh-edible-fungus-and-seaweeds"/>
+        <Class IRI="Edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fresh-egg"/>
+        <Class IRI="Egg-and-egg-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fresh-fruit"/>
+        <Class IRI="Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fresh-nuts-and-seeds"/>
+        <Class IRI="Nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fresh-vegetable"/>
+        <Class IRI="Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fried-flour-product"/>
+        <Class IRI="Wheat-flour-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fried-meat"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fried-semi-dried-tofu"/>
+        <Class IRI="Reprocessed-dried-tofu-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-aquatic-product"/>
+        <Class IRI="Frozen-aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-aquatic-product-and-their-products"/>
+        <Class IRI="Aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-drink"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-edible-fungus-and-seaweeds"/>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-fruit"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-meat"/>
+        <Class IRI="Raw-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-minced-fish-product"/>
+        <Class IRI="Frozen-aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-pulp-product"/>
+        <Class IRI="Frozen-aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-rice-and-flour-product"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Frozen-vegetable"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fruit"/>
+        <Class IRI="Fruit,-vegetable,-legume,-mushroom,-algae,-nut,-seed,-etc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fruit-dessert-including-fruit-flavored-liquid-dessert"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fruit-flavored-syrup"/>
+        <Class IRI="Flavored-syrup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fruit-wine"/>
+        <Class IRI="Fermented-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gum-based-candy"/>
+        <Class IRI="Candy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Heat-coagulated-egg-product"/>
+        <Class IRI="Egg-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Honey"/>
+        <Class IRI="Honey-and-pollen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Honey-and-pollen"/>
+        <Class IRI="Sweeteners-include-honey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hydrogenated-vegetable-oil"/>
+        <Class IRI="Vegetable-oil-and-fat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ice-cream-and-frozen-dessert"/>
+        <Class IRI="Frozen-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="In-shell-cooked-nuts-and-seeds"/>
+        <Class IRI="Cooked-nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Infant-and-young-children-formula"/>
+        <Class IRI="Food-for-special-dietary-use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Infant-formula"/>
+        <Class IRI="Infant-and-young-children-formula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Infant-formula-for-special-medical-purposes"/>
+        <Class IRI="Infant-and-young-children-formula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Instant-coffee"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Instant-rice-and-flour-product"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jam"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jam-other-than-04.01.02.05"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jelly"/>
+        <Class IRI="Other-kinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jerky"/>
+        <Class IRI="Cooked-jerky-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lactic-acid-bacteria-containing-drink"/>
+        <Class IRI="Milk-containing-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Liquid-compound-seasoning"/>
+        <Class IRI="Compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Liquor"/>
+        <Class IRI="Distilled-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lotus-root-starch"/>
+        <Class IRI="Starch-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Margarine-and-similar-product"/>
+        <Class IRI="Emulsion-with-a-fat-content-of-more-than-80-％"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mayonnaise-and-salad-dressing"/>
+        <Class IRI="Semi-solid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mead"/>
+        <Class IRI="Fermented-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Meat-and-bone-Broth"/>
+        <Class IRI="Liquid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Meat-and-meat-product"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Meat-floss"/>
+        <Class IRI="Cooked-jerky-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Milk-and-dairy-product"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Milk-containing-drink"/>
+        <Class IRI="Protein-containing-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Milk-powder-and-cream-powder"/>
+        <Class IRI="Milk-powder-and-cream-powder-and-their-concoction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Milk-powder-and-cream-powder-and-their-concoction"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Modified-milk"/>
+        <Class IRI="Pasteurized-milk,-sterilized-milk-and-modified-milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Modified-milk-powder-and-modified-cream-powder"/>
+        <Class IRI="Milk-powder-and-cream-powder-and-their-concoction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Moon-cake"/>
+        <Class IRI="Pastry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Natural-mineral-water"/>
+        <Class IRI="Packaged-drinking-water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="New-soy-product"/>
+        <Class IRI="Non-fermented-soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Non-fermented-soybean-product"/>
+        <Class IRI="Soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nuts-and-seeds"/>
+        <Class IRI="Fruit,-vegetable,-legume,-mushroom,-algae,-nut,-seed,-etc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nuts-and-seeds-puree-including-peanut-butter-etc"/>
+        <Class IRI="Processed-nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Older-infant-and-young-child-formula"/>
+        <Class IRI="Infant-and-young-children-formula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-aquatic-products-and-their-products"/>
+        <Class IRI="Aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-baked-goods"/>
+        <Class IRI="Baked-goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-biscuits"/>
+        <Class IRI="Biscuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-carbonated-drink"/>
+        <Class IRI="Carbonated-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-coarse-cereal-product"/>
+        <Class IRI="Coarse-cereal-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-cooked-meat-product"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-dairy-products"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-distilled-spirits"/>
+        <Class IRI="Distilled-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-drinks"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-egg-products"/>
+        <Class IRI="Egg-and-egg-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-fats-or-fat-products"/>
+        <Class IRI="Fatty-oil-and-emulsified-fatty-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-flavored-syrups"/>
+        <Class IRI="Flavored-syrup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-frozen-drinks"/>
+        <Class IRI="Frozen-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-kinds"/>
+        <Class IRI="Other-drinks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-pre-made-aquatic-products"/>
+        <Class IRI="Pre-made-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-processed-edible-fungus-and-seaweeds"/>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-processed-eggs"/>
+        <Class IRI="Remade-egg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-processed-fruits"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-processed-nuts-and-seeds"/>
+        <Class IRI="Processed-nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-processed-spice-products"/>
+        <Class IRI="Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-processed-vegetables"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-protein-containing-drink"/>
+        <Class IRI="Protein-containing-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-seasonings"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-semi-dried-tofu-product"/>
+        <Class IRI="Reprocessed-dried-tofu-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-semi-solid-compound-seasonings"/>
+        <Class IRI="Semi-solid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-solid-compound-seasonings"/>
+        <Class IRI="Solid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-solid-drinks"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-soy-products"/>
+        <Class IRI="Soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-special-dietary-foods"/>
+        <Class IRI="Food-for-special-dietary-use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-sugars-and-syrups"/>
+        <Class IRI="Sugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-sweeteners"/>
+        <Class IRI="Sweeteners-include-honey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-types-of-drinking-water"/>
+        <Class IRI="Packaged-drinking-water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Other-yeast-and-yeast-product"/>
+        <Class IRI="Yeast-and-yeast-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Others"/>
+        <Class IRI="Other-kinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Packaged-drinking-water"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pasteurized-milk"/>
+        <Class IRI="Pasteurized-milk,-sterilized-milk-and-modified-milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pastille"/>
+        <Class IRI="Candied-and-preserved-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pastry"/>
+        <Class IRI="Baked-goods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Peeled-or-pre-cut-fresh-fruit"/>
+        <Class IRI="Fresh-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pickled-aquatic-product"/>
+        <Class IRI="Pre-made-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pickled-edible-fungus-and-seaweeds"/>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pickled-fruit-in-vinegar-or-salt"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pickled-vegetable"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Plant-based-protein-containing-drink"/>
+        <Class IRI="Protein-containing-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pollen"/>
+        <Class IRI="Honey-and-pollen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pour-sausage"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pre-made-aquatic-product"/>
+        <Class IRI="Aquatic-product-and-their-products"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pre-made-meat"/>
+        <Class IRI="Meat-and-meat-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Preserved-egg"/>
+        <Class IRI="Remade-egg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Preserved-fruit"/>
+        <Class IRI="Candied-and-preserved-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Processed-cheese"/>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Processed-edible-fungus-and-seaweeds"/>
+        <Class IRI="Edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Processed-fruit"/>
+        <Class IRI="Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Processed-nuts-and-seeds"/>
+        <Class IRI="Nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Processed-vegetable"/>
+        <Class IRI="Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Protein-containing-drink"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Protein-containing-solid-drink"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Puffed-food"/>
+        <Class IRI="Other-kinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Puree"/>
+        <Class IRI="Processed-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Purified-drinking-water"/>
+        <Class IRI="Packaged-drinking-water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Raw-grain"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Raw-meat"/>
+        <Class IRI="Meat-and-meat-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Raw-meat"/>
+        <Class IRI="Raw-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ready-to-eat-cereals-include-rolled-oat"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ready-to-eat-dessert-with-milk-as-main-ingredient-or-their-preparation"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ready-to-eat-meat"/>
+        <Class IRI="Meat-and-meat-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Regular-processed-cheese"/>
+        <Class IRI="Processed-cheese"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Remade-egg"/>
+        <Class IRI="Egg-and-egg-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Reprocessed-dried-tofu-product"/>
+        <Class IRI="Non-fermented-soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rice"/>
+        <Class IRI="Rice-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rice-and-its-product"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rice-flour"/>
+        <Class IRI="Rice-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rice-flour-product"/>
+        <Class IRI="Rice-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rice-product"/>
+        <Class IRI="Rice-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ripened-cheese"/>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rum"/>
+        <Class IRI="Distilled-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Salt-and-salt-substitute"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Salted-and-cured-meat"/>
+        <Class IRI="Pre-made-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Salted-egg"/>
+        <Class IRI="Remade-egg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sauce-and-sauce-product"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Seasoned-clear-broth"/>
+        <Class IRI="Liquid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Seasoning-sauces-based-on-animal-based-ingredients"/>
+        <Class IRI="Semi-solid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Semi-solid-compound-seasoning"/>
+        <Class IRI="Compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Shelled-cooked-nuts-and-seeds"/>
+        <Class IRI="Cooked-nuts-and-seeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Shrimp-flavor-chip"/>
+        <Class IRI="Starch-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Smoked-aquatic-product"/>
+        <Class IRI="Cooked-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Smoked-meat"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Smoked-semi-dried-tofu"/>
+        <Class IRI="Reprocessed-dried-tofu-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Solid-compound-seasoning"/>
+        <Class IRI="Compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Solid-drink"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Solid-soup"/>
+        <Class IRI="Solid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Soy-sauce"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Soybean-cheese"/>
+        <Class IRI="Fermented-soy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Soybean-product"/>
+        <Class IRI="Fruit,-vegetable,-legume,-mushroom,-algae,-nut,-seed,-etc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sparkling-and-semi-sparkling-wine"/>
+        <Class IRI="wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Special-wheat-flour"/>
+        <Class IRI="Wheat-flour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Spice-and-powder"/>
+        <Class IRI="Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Spice-oil"/>
+        <Class IRI="Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Spice-sauce"/>
+        <Class IRI="Spices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Spiced-egg"/>
+        <Class IRI="Remade-egg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Spices"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Starch-and-starch-product"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Starch-product"/>
+        <Class IRI="Starch-and-starch-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Starch-sugar"/>
+        <Class IRI="Sweeteners-include-honey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Steamed-salted-pork-in-wine"/>
+        <Class IRI="Stewed-meat-in-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sterilized-milk"/>
+        <Class IRI="Pasteurized-milk,-sterilized-milk-and-modified-milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Stewed-meat-in-seasoning"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Stewed-meat-in-seasoning"/>
+        <Class IRI="Stewed-meat-in-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Still-wine"/>
+        <Class IRI="wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sugar"/>
+        <Class IRI="Sweeteners-include-honey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sugar-and-sugar-product"/>
+        <Class IRI="Sugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Surface-treated-fresh-fruit"/>
+        <Class IRI="Fresh-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Surface-treated-fresh-fungus-and-seaweeds"/>
+        <Class IRI="Fresh-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Surface-treated-fresh-vegetable"/>
+        <Class IRI="Fresh-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sweeteners-include-honey"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Table-sweetener"/>
+        <Class IRI="Sweeteners-include-honey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tapioca-pearl"/>
+        <Class IRI="Starch-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tea-and-coffee"/>
+        <Class IRI="Tea,-coffee-and-tea-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tea-product"/>
+        <Class IRI="Tea,-coffee-and-tea-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="The-color-predends-on-pastry"/>
+        <Class IRI="Pastry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tofu"/>
+        <Class IRI="Non-fermented-soybean-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Umami-and-Flavor-Enhancer"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Uncooked-and-dry-flour-product"/>
+        <Class IRI="Wheat-flour-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Uncooked-and-wet-flour-product"/>
+        <Class IRI="Wheat-flour-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Unprocessed-fresh-fruit"/>
+        <Class IRI="Fresh-fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Unprocessed-fresh-fungus-and-seaweeds"/>
+        <Class IRI="Fresh-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Unprocessed-fresh-vegetable"/>
+        <Class IRI="Fresh-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Unripened-cheese"/>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vegetable"/>
+        <Class IRI="Fruit,-vegetable,-legume,-mushroom,-algae,-nut,-seed,-etc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vegetable-based-sauce"/>
+        <Class IRI="Semi-solid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vegetable-oil"/>
+        <Class IRI="Vegetable-oil-and-fat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vegetable-oil-and-fat"/>
+        <Class IRI="Fat-and-oil-essentially-free-from-water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vegetable-puree-except-tomato-sauce"/>
+        <Class IRI="Processed-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vermicelli"/>
+        <Class IRI="Starch-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vinegar"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vinegar-or-aspic-like-aquatic-product"/>
+        <Class IRI="Pre-made-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vodka"/>
+        <Class IRI="Distilled-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wafer"/>
+        <Class IRI="Biscuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Western-pastry"/>
+        <Class IRI="Pastry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Western-style-ham"/>
+        <Class IRI="Ready-to-eat-meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wheat-flour"/>
+        <Class IRI="Wheat-flour-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wheat-flour-and-its-product"/>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wheat-flour-product"/>
+        <Class IRI="Wheat-flour-and-its-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Whey-cheese"/>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Whey-protein-cheese"/>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Yeast-and-yeast-product"/>
+        <Class IRI="Other-kinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Yellow-wine"/>
+        <Class IRI="Fermented-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="whisky"/>
+        <Class IRI="Distilled-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="wine"/>
+        <Class IRI="Fermented-wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Air-dried,-oven-dried,-press-dried-and-other-aquatic-products"/>
+        <Class IRI="Pre-made-aquatic-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cheese,-processed-cheese-and-analogue"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chocolate,-chocolate-product-and-cocoa-product-other-than-05.01.01"/>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-including-cocoa-butter-substitute-chocolate-and-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-and-confectionery"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-including-cocoa-butter-substitute-chocolate-and-product"/>
+        <Class IRI="Cocoa-product,-Chocolate-and-chocolate-product-and-confectionery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fat-emulsion-product-not-included-in-class-02.02,-including-mixed-and-flavored-Fat-emulsion-product"/>
+        <Class IRI="Fatty-oil-and-emulsified-fatty-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fruit,-vegetable,-legume,-mushroom,-algae,-nut,-seed,-etc"/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fruit/Vegetable-juices-and-beverage"/>
+        <Class IRI="Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Grain-and-grain-products-including-rice,-flour,-coarse-cereal,-root-vegetables,-legumes,-and-corn-extracted-starch,-etc."/>
+        <Class IRI="Food-classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Oyster-sauce,-shrimp-sauce,-fish-sauce,-etc"/>
+        <Class IRI="Liquid-compound-seasoning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pasteurized-milk,-sterilized-milk-and-modified-milk"/>
+        <Class IRI="Milk-and-dairy-product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Peeled,-cut-or-sliced-fungus-and-seaweeds"/>
+        <Class IRI="Fresh-edible-fungus-and-seaweeds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Peeled,-cut-or-sliced-vegetable"/>
+        <Class IRI="Fresh-vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tea,-coffee-and-tea-product"/>
+        <Class IRI="Other-kinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="—"/>
+        <Class IRI="Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="—"/>
+        <Class IRI="Cream-and-the-like"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="—"/>
+        <Class IRI="Food-for-special-dietary-use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="—"/>
+        <Class IRI="Frozen-drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="—"/>
+        <Class IRI="Other-kinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="—"/>
+        <Class IRI="Processed-nuts-and-seeds"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
