@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" alignmentSource="AgreementMakerLight">
+	<Alignment>
+		<xml>yes</xml>
+		<level>0</level>
+		<type>??</type>
+		<onto1>http://www.semanticweb.org/2022/ontologies/FCOn2762#</onto1>
+		<onto2>http://www.semanticweb.org/2022/ontologies/FCOn2763#</onto2>
+		<uri1>http://www.semanticweb.org/2022/ontologies/FCOn2762#</uri1>
+		<uri2>http://www.semanticweb.org/2022/ontologies/FCOn2763#</uri2>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#谷物及其制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#油料和油脂"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#熟制坚果及籽类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#榛子"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#芸薹类蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#皱叶甘蓝等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#食品分类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#食品分类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#小麦粉"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#小麦粉"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#香菇"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#香菇"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#甲壳类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#水产品"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#叶菜蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#苋菜"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他坚果及籽类制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#杏仁"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他谷物制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#小麦"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#藕粉"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#莲藕"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#白糖及白糖制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#甘蔗"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他蛋制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#油脂"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他蔬菜制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#根芥菜"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#食糖及淀粉糖"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#糖料"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#豆类及其制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#谷物"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#肉类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#马肉等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#水果及其制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#水果"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#新鲜蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#芡实"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#灭菌乳"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#牛"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#蔬菜及其制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#蔬菜"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#浆果和其他小粒水果"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#露莓等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#木本坚果"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#松仁"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#西式火腿类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#猪"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#熏烧烤肉类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#鸭"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#酿造酱"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#干辣椒"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#坚果及籽类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#坚果"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#糕点"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#乳脂肪"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#香辛料及粉"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#果类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#谷物"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#旱粮类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#生乳"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#羊"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#可可制品巧克力和巧克力制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#澳洲坚果等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#豆类蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#菜用大豆"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#茎类蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#根茎类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#畜禽内脏"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#肝"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#玉米"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#玉米"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#调味品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#调味料"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#饮料及甜味种子"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#果实类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#大米"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#大米"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#腌渍蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#韭葱等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他新鲜蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#瓠瓜等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#经水煮或油炸的蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#竹笋"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#饮料类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#饮料类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他谷物"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#高粱"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#蜜饯凉果"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#枸杞等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#豆类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#豇豆"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#糟蛋"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#蛋类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#油料"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#花生仁"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他特殊膳食用食品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#花及果实类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#酱卤肉制品类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#鸡"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他糖和糖浆"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#甜菜"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#非发酵豆制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#利马豆等"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#特殊膳食用食品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#药用植物"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#水果罐头"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#杨桃"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他去壳谷物"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#薏仁"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他新鲜水果"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#山楂"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#香辛料油"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#种子类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他调味品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#薄荷"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他类"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#动物源性食品"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#块根和块茎蔬菜"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#芜菁"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#果蔬汁"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#桃"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#大麦"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#大麦"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他水果制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#葡萄干"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#发酵豆制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#杂粮类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他乳制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#生乳"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#其他新鲜食用菌"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#白灵菇"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#藻类及其制品"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#食用菌"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2762#畜禽肉"/>
+				<entity2 rdf:resource="http://www.semanticweb.org/2022/ontologies/FCOn2763#哺乳动物肉类"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+	</Alignment>
+</rdf:RDF>
